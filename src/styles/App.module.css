@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgb(141, 89, 41);
+  padding: 15px;
+  position: relative;
+  z-index: 2;
+}
+.navLink {
+  color: white;
+  font-size: 20px;
+}
+.logOut {
+  background-color: rgb(141, 89, 41);
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.userName {
+  margin-left: 30px;
+  color: white;
+}
