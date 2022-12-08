@@ -45,7 +45,7 @@ function App() {
         </div>
       </nav>
       <Routes>
-        <Route path="/" exactnpm instaaxjn element={<Home />}></Route>
+        <Route exact path="/"  element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/login" element={<Login setIsAuth={setIsAuth} />}></Route>
         <Route
