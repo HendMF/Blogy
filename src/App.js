@@ -1,5 +1,5 @@
 import styles from "./styles/App.module.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import { signOut } from "firebase/auth";
@@ -45,7 +45,7 @@ function App() {
         </div>
       </nav>
       <Routes>
-        <Route exact path="/"  element={<Home />}></Route>
+        <Route exact path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/login" element={<Login setIsAuth={setIsAuth} />}></Route>
         <Route
